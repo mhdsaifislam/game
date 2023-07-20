@@ -1,0 +1,130 @@
+/*work sans fonts from google fonts*/
+  @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Work+Sans:wght@400;600;700;800&display=swap');
+
+
+*{
+    font-family: 'Work Sans', sans-serif;
+}
+/* header style start*/
+.nav-container {
+    display: flex;
+    justify-content: space-between; 
+    background: #FFF;
+box-shadow: 0px 4px 30px 0px #0000000d;  
+
+
+
+}
+.logo {
+  display: flex;
+  align-items: center;
+  margin-left: 5%;
+}
+.g{
+  color:#FF42A5;
+}
+.game{
+  font-size: 45px;
+  font-weight: 700;
+}
+.nav-container > ul{
+  display: flex;
+  justify-content: space-between;  
+  align-items: center;
+
+}
+.nav-container, li{ 
+  list-style: none;
+  margin-right: 30px;
+}
+.follow{
+  display: flex;
+  margin-right: 30px;
+  border-radius: 8px;
+  gap: 10px;
+background: #0b02231a;
+     
+}
+/* header style finish*/
+
+.main-container{
+  display: flex;
+  justify-content: space-between; 
+  background: #FFF;
+
+  
+}
+.text-container{
+  margin-left: 5%;
+  background-image: url("../images/Group 14.png");
+  width: 100%; 
+}
+
+.play{
+  color: #0B0223;    
+  font-size: 48px;
+  font-weight: 600;
+
+
+}
+.h1{
+    font-size: 72px;
+    font-weight: 800;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+}
+.pink{
+
+  background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+  border-radius: 45px;
+  border:none;
+  color: #FFF;
+  padding: 10px 15px;
+
+}
+.cyan{ background: var(--linear, linear-gradient(90deg,#4EC5F7 0%, #4EC5F7 100%));
+  border-radius: 45px;
+  border:none;
+  color: #FFF;
+  padding: 10px 15px;
+}
+
+.text{
+  text-align: center;
+}
+.linear-gradient{
+  background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+  background-clip: text;
+
+}
+
+.online-game{
+
+display: flex;
+
+}
+.container3{
+  display: flex;
+}
+.text-style{
+margin: 16% 16% 16% 16%;
+text-align: right;
+
+}
+.image-position{
+  position: relative;
+  bottom: 450px;
+  left: 750px;
+}
+.h2{
+  font-size: 48px;
+  font-weight: 700;
+  
+}
+
+.pink-text{
+  background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+  background-clip: text;
+
+
+}
