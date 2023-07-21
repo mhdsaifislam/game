@@ -4,15 +4,15 @@
 
 *{
     font-family: 'Work Sans', sans-serif;
+   
 }
 /* header style start*/
 .nav-container {
+    width: 100%;
     display: flex;
-    justify-content: space-between; 
+    justify-content:space-between;
     background: #FFF;
-box-shadow: 0px 4px 30px 0px #0000000d;  
-
-
+    box-shadow: 0px 4px 30px 0px #0000000d;  
 
 }
 .logo {
@@ -30,7 +30,7 @@ box-shadow: 0px 4px 30px 0px #0000000d;
 }
 .nav-container > ul{
   display: flex;
-  justify-content: space-between;  
+  justify-content: space-around;  
   align-items: center;
 
 }
@@ -38,9 +38,12 @@ box-shadow: 0px 4px 30px 0px #0000000d;
   list-style: none;
   margin-right: 30px;
 }
+
 .follow{
   display: flex;
-  margin-right: 30px;
+ margin-top: 50px;
+  height: 70px;
+  margin-right: 100px;
   border-radius: 8px;
   gap: 10px;
 background: #0b02231a;
@@ -52,13 +55,14 @@ background: #0b02231a;
   display: flex;
   justify-content: space-between; 
   background: #FFF;
-
+  width: 100%; 
   
 }
 .text-container{
   margin-left: 5%;
   background-image: url("../images/Group 14.png");
-  width: 100%; 
+  height: 600px;
+  width: 100%;
 }
 
 .play{
@@ -101,6 +105,14 @@ background: #0b02231a;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.image-container{
+  width: 100%;
+  height: 600px;
+}
+.image-container img{
+  width: 100%;
+  height: 600px;
+}
 
 .online-game{
 
@@ -109,7 +121,14 @@ display: flex;
 }
 .container3{
   display: flex;
+  justify-content:space-around;
   margin-bottom: 0;
+
+}
+.container3 img{
+  width: 100%;
+  height: 600px;
+  padding-right: 600px;
 }
 .text-style{
 margin: 16% 16% 16% 16%;
@@ -118,7 +137,7 @@ text-align: right;
 }
 .image-position{
   position: relative;
-  bottom: 450px;
+  bottom: 450px; 
   left: 750px;
 }
 .h2{
@@ -143,6 +162,8 @@ text-align: right;
     width: 100%;
     height: 820px; 
     padding-bottom: 0;
+
+  
 }
 .list{
   display: flex;
@@ -162,9 +183,13 @@ text-align: right;
   border: none;
 }
 .careers-images-right{
-  margin-right: 10%;
-  margin-top: 0px;
-  width: 50%;
+    height: 760px;
+   width: 100%;
+   margin-left: 100px;
+}
+.careers-images-right img{
+   height: 760px;
+   width: 100%;
 }
 .footer-background{
   width:100%;
@@ -210,4 +235,109 @@ text-align: right;
   color: #FFF;
   margin-left: 36%;
   
+}
+        /*responsive style*/
+@media screen and (max-width: 576px ) {
+  .nav-container{
+    flex-direction: column;
+   
+  }
+  .logo {
+    display: flex;
+    align-items: center;
+    margin-left: 1%;
+  }
+
+  .about-developer{
+    margin-top: 10px;
+    margin-left: 0px;
+     
+  }
+  .follow{
+   
+    display: flex;
+    margin: 15px 20px 15px 20px;
+    margin-top: 10px;
+    border-radius: 8px;
+    gap: 05px;
+    background: #0b02231a;
+  }
+  .main-container{
+
+    flex-direction: column;
+  }
+  .online-game{
+    flex-direction: column;
+
+  }
+  .container3{
+    flex-direction: column;
+  }
+
+  .text-container{
+    margin: 10px 20px 10px 20px;
+    border-radius: 8px;
+    width: 100%;
+    background-image: url("../images/Group 14.png");
+  }
+  .image-container{
+    width: 100%;
+    height: 500px;
+  }
+  .image-container img{
+    width: 100%;
+    height: 500px;
+  }
+  .container3 img{
+    width: 100%;
+    height: 500px;
+    padding-right: 700px;
+  }
+  .image-position{
+    position: relative;
+    bottom: 220px; 
+    left: -25px;
+  }
+  .image-position img{
+    height:250px;
+    width: 250px;
+  }
+  .careers{
+    flex-direction: column;
+    
+  }
+  .careers-images-right img{
+    height: 260px;
+    width: 80%;
+  }
+  .footer-title{
+    display: flex;
+    align-items: center;
+    margin-left:30%;
+    margin-top: 30px;
+    padding-top: 30px;
+  }  
+  .footer-text{
+    color: #FFF;
+    flex-direction: column;
+   text-align: center;
+
+  }
+  .footer-text-down{
+    margin-top: 20px;
+    color: #FFF;
+    flex-direction: column;
+    text-align: center;
+    
+  }
+  .footer-copy-right{
+    margin-top: 20px;
+    color: #FFF;
+    margin-left: 36%;
+    margin-bottom: 200px;
+    
+  }
+
+
+
 }
