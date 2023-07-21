@@ -72,6 +72,8 @@ background: #0b02231a;
     font-weight: 800;
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .pink{
 
@@ -95,7 +97,8 @@ background: #0b02231a;
 .linear-gradient{
   background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
   background-clip: text;
-
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .online-game{
@@ -105,6 +108,7 @@ display: flex;
 }
 .container3{
   display: flex;
+  margin-bottom: 0;
 }
 .text-style{
 margin: 16% 16% 16% 16%;
@@ -123,8 +127,51 @@ text-align: right;
 }
 
 .pink-text{
-  background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
-  background-clip: text;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.careers{
+    display: flex;
+    background-image: url("../images/Group 14.png");
+    margin-left: 3%;
+    background-color: #FF42A5;
+    color: #FFF;
+    margin-top: 0;
+  
+    
+}
+.list{
+  display: flex;
+  justify-content: space-between;
+
+ 
+  
+
+}
+.text-container{
+  width: 50%;
+  text-align: left;
+  
+
+  
+}
+.pink-btn{
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 45px;
+  padding: 5px;
+  text-transform: uppercase;
+  color: #F948B2;
 
 
+
+
+}
+.careers-images-right{
+  margin-right: 0px;
+  margin-top: 0px;
+  width: 50%;
 }
